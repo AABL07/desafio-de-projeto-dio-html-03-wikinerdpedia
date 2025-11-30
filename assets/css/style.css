@@ -744,7 +744,16 @@ section p {
         display: block;
         width: 100%;
     }
-
+     .seasons-table caption {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 1.1rem;
+        text-align: left;
+        padding: 0;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
     .seasons-table thead {
         display: none;
     }
