@@ -734,8 +734,10 @@ section p {
     }
 }
     .character-card img {
-        height: 280px;
-        object-position: center center;  
+        height: auto;             
+        max-height: 280px; 
+        object-fit: cover; 
+        object-position: center 15%;  
     }
 
 @media (max-width: 480px) {
