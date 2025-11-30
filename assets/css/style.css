@@ -790,8 +790,8 @@ section p {
     .character-card img {
         height: auto;             
         max-height: 280px;        
-        object-fit: contain;       
-        object-position: center;   
+        object-fit: cover;       
+        object-position: center 15%;   
     }
 }
 
